@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.wrapper{
+    display: inline-block;
+}
+
+.sample
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: orangered;
+    position: relative;
+    margin-top: 30%;
+    margin-left: 8%;
+    border: 2px solid white;
+    
+
+}
+.content{
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    /* margin-bottom: 5%; */
+    top: 57%;
+    /* border: 2px solid white; */
+    font-size: xx-large;
+}
+h3,h2{
+    margin: 1rem 0;
+}
+/* h3{
+    color: white;
+    display: block;
+    position: absolute;
+    top: 29%;
+    left: 5%;
+    font-size: larger;
+}
+h2{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+} */
+img{
+    width: 45%;
+    height: 40%;
+    margin-top: 8%;
+    margin-left: 5%;
+    float: left;
+}
+.container{
+    /* width: 50%; */
+    float: right;
+    padding: 2.9rem;
+}
+.para1{
+    color: aliceblue;
+    /* width: 40%; */
+    /* margin-top: -20%;
+    margin-bottom: 10%;*/
+    /* margin-left: 25%;  */
+    float: right;
+    text-align: left;
+    font-size: xx-large;
+    position: relative;
+    top:-515px;
+    right: 115px;
+    width: 40%;
+    
+}
+.para2{
+    color: aliceblue;
+    /*float: right;*/
+    margin-top: -13%;
+    margin-right: 10%;
+    position: relative;
+    left: 303px;
+    top: -94px;
+    /*
+     text-align: center; */
+}
+span{
+    color: aliceblue;
+    /* float: right; */
+    margin-right: 5%;
+    position: relative;
+    left: 283px;
+    
+}
+hr{
+    position: relative;
+    border-top: 1px solid red;
+    bottom: 10px;
+    width: 30%;
+    left: 75%;
+}
