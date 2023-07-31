@@ -1,0 +1,161 @@
+ $tdh: 50vh; //variable
+
+ // $tdw : 30vw;
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ .container {
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+ }
+
+ table {
+   height: 100vh;
+   width: 100vw;
+   border: 1px solid black;
+   border-bottom: 0;
+
+   //nesting of the elements
+   tr {
+     height: $tdh; //variable calling
+     // background-color: aquamarine;
+   }
+
+   td {
+     position: relative;
+     width: 16.66vw;
+     height: $tdh;
+     text-align: center;
+     // border: 1px solid black;
+     border-bottom: 1px solid black;
+     border-left: 1px solid black;
+     margin: 0;
+     padding: 0;
+     .cbottom{
+      visibility: hidden;
+     }
+   }
+ }
+
+ .circle {
+   height: 100px;
+   width: 100px;
+   border-radius: 100%;
+   background-color: rgba(5, 32, 232, 0.666);
+   position: relative;
+   margin-left: 5% + 5%; //operator
+   border: 2px solid white;
+
+
+ }
+
+ span {
+   font-size: small;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 1rem;
+   color: grey;
+
+ }
+
+ //mixin property for the position and font 
+ @mixin pos {
+   position: absolute;
+   font-weight: bolder;
+   font-size: x-large;
+
+ }
+
+ .content {
+   #id1 {
+     position: absolute;
+     top: 45%;
+     left: 35%;
+     font-weight: bold;
+     // @include pos()
+   }
+
+   #id2 {
+     //position: absolute;
+     top: 60%;
+     left: 35%;
+     @include pos() // font-weight: bolder;
+     // font-size:x-large;
+
+   }
+
+   #id3 {
+     //position: absolute;
+     //top: 70%;
+     // left:0%;
+     left: 3rem;
+     right: -6rem;
+     top: 13.5rem;
+     // font-weight: bolder;
+     // font-size:x-large;
+     color: aliceblue;
+    //  color: black;
+    text-shadow: -0.1vh 0.1vh 0 #000, 0.1vh 0.1vh 0 #707070,
+      0.1vh -0.1vh 0 #707070, -0.1vh -0.1vh 0 #707070;
+     // display: inline;
+     @include pos() //mixin of pos is calling
+   }
+ }
+
+ .corner {
+   font-size: small;
+   position: absolute;
+   margin-left: 1rem;
+   top: 0;
+   left: 0;
+   color: gray;
+ }
+
+ .non:hover {
+   background-color: black;
+   color: gray;
+   // position: absolute;
+   // top: 2%;
+   top: -1rem;
+   right: 0.2rem;
+   //  bottom: 2%;
+   //inherate the property of the span tag
+   @extend span;
+
+   .corner {
+     visibility: hidden;
+   }
+   .cbottom{
+    visibility: visible;
+    p{
+      color: gray;
+    }
+   }
+   p{
+    color: aliceblue;
+   }
+
+
+ }
+ .cbottom{
+  p{
+    display: inline-block;
+    position:absolute;
+    // padding: 40px;
+    // padding-left: 5px;
+    bottom: 10px;
+    left: 10px;
+  }
+  button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    // padding-right: 5px;
+  }
+ }

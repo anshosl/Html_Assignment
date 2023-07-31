@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+table {
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid black;
+  border-bottom: 0;
+}
+table tr {
+  height: 50vh;
+}
+table td {
+  position: relative;
+  width: 16.66vw;
+  height: 50vh;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+table td .cbottom {
+  visibility: hidden;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: rgba(5, 32, 232, 0.666);
+  position: relative;
+  margin-left: 10%;
+  border: 2px solid white;
+}
+
+span, .non:hover {
+  font-size: small;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  color: grey;
+}
+
+.content #id1 {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  font-weight: bold;
+}
+.content #id2 {
+  top: 60%;
+  left: 35%;
+  position: absolute;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.content #id3 {
+  left: 3rem;
+  right: -6rem;
+  top: 13.5rem;
+  color: aliceblue;
+  text-shadow: -0.1vh 0.1vh 0 #000, 0.1vh 0.1vh 0 #707070, 0.1vh -0.1vh 0 #707070, -0.1vh -0.1vh 0 #707070;
+  position: absolute;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.corner {
+  font-size: small;
+  position: absolute;
+  margin-left: 1rem;
+  top: 0;
+  left: 0;
+  color: gray;
+}
+
+.non:hover {
+  background-color: black;
+  color: gray;
+  top: -1rem;
+  right: 0.2rem;
+}
+.non:hover .corner {
+  visibility: hidden;
+}
+.non:hover .cbottom {
+  visibility: visible;
+}
+.non:hover .cbottom p {
+  color: gray;
+}
+.non:hover p {
+  color: aliceblue;
+}
+
+.cbottom p {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.cbottom button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}/*# sourceMappingURL=style.css.map */
