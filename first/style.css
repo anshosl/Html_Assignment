@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 2px;
+  margin: 5px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: rgba(239, 85, 43, 0.815);
+  position: relative;
+  margin-left: 10%;
+  border: 2px solid white;
+}
+
+.txt {
+  position: absolute;
+  top: 2.5rem;
+  right: -5rem;
+  left: 4rem;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.main {
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+}
+.main .one {
+  padding: 1rem;
+  margin: 1rem;
+  border-right: 1px solid gray;
+}
+.main .one .blue {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: rgba(61, 89, 229, 0.815);
+  position: relative;
+  margin-left: 10%;
+  border: 2px solid white;
+}
+.main .two {
+  padding: 1rem;
+  margin: 1rem;
+  border-right: 1px solid gray;
+}
+.main .two .yellow {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: rgba(237, 227, 26, 0.815);
+  position: relative;
+  margin-left: 10%;
+  border: 2px solid white;
+}
+.main .three {
+  padding: 1rem;
+  margin: 1rem;
+  border-right: 1px solid gray;
+}
+.main .three .red {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: rgba(244, 64, 14, 0.815);
+  position: relative;
+  margin-left: 10%;
+  border: 2px solid white;
+}
+.main .four {
+  padding: 1rem;
+  margin: 1rem;
+}
+.main .four .blue {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: rgba(61, 89, 229, 0.815);
+  position: relative;
+  margin-left: 10%;
+  border: 2px solid white;
+}
+.main .content1,
+.main .content2,
+.main .content3,
+.main .content4 {
+  margin: 10px;
+  padding: 10px;
+}
+.main .content1 p,
+.main .content2 p,
+.main .content3 p,
+.main .content4 p {
+  margin: 8px;
+}
+.main .content1 .para2,
+.main .content2 .para2,
+.main .content3 .para2,
+.main .content4 .para2 {
+  font-weight: 600;
+  font-size: medium;
+}
+.main .content1 .para3,
+.main .content2 .para3,
+.main .content3 .para3,
+.main .content4 .para3 {
+  margin-top: 50px;
+}
+.main .content1 .para3:after,
+.main .content2 .para3:after,
+.main .content3 .para3:after,
+.main .content4 .para3:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background: crimson;
+  margin: 10px 15px;
+}
+.main img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}/*# sourceMappingURL=style.css.map */
