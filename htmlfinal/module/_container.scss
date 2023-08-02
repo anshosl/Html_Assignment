@@ -1,0 +1,137 @@
+@import "../base/universal";
+
+.container {
+    // width: 375pt;
+    // height: 812pt;
+    width: 100vw;
+    //    min-height: 90vh;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+// .wrapper{
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    // margin-top: 19.76pt;
+    img {
+        transform: rotate(-33deg);
+        // width: 94.36pt;
+        // height: 41.25pt;
+        width: 96.49pt;
+        opacity: 100%;
+        height: 90.25pt;
+        // margin-top: 19.76pt;
+        // margin-left: 17.88pt;
+    }
+
+    .nav {
+        ul {
+            list-style: none;
+            font-size: 14pt;
+            text-align: left;
+            // font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            margin-right: 14pt;
+
+            li {
+                line-height: 25pt;
+                text-align: right;
+                padding-top: 10pt;
+            }
+
+            // hr {
+            //     position: absolute;
+            //     color: #E14B32;
+            //     size: 10pt;
+            // }
+
+            #five {
+                color: #E14B32;
+            }
+
+            #five::before {
+                content: "";
+                position: absolute;
+                width: 60px;
+                height: 2px;
+                background: crimson;
+                margin: 17px -65px;
+            }
+        }
+
+        ;
+    }
+}
+
+.content {
+    margin-top: 20pt;
+    margin-left: 8pt;
+
+    span {
+        margin-left: 5pt;
+        display: block;
+        text-align: left;
+        font-size: 112pt;
+        font-weight: bold;
+        line-height: 90pt;
+        font-family: 'Bebas Neue', sans-serif;
+        // font-family: 'Montserrat', sans-serif;
+
+    }
+
+    p {
+        width: 150pt;
+        height: 28pt;
+        font-size: 9pt;
+        margin-left: 5pt;
+        // font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.yellow-triangle {
+    position: absolute;
+    // top: 24rem;
+    // right: 4rem;
+    // left: 18rem;
+    top: 33%;
+    right: 21%;
+    left: 72%;
+    border-bottom: 28.57px solid #FAAF40;
+    border-right: 28.57px solid transparent;
+}
+
+.txt {
+
+    .square {
+        height: 50px;
+        width: 50px;
+        background-color: #f00909;
+        position: absolute;
+        left: 42%;
+        bottom: 0%;
+    }
+
+    // width: 290pt;
+    // height: 103pt;
+    .para {
+        padding-top: 30pt;
+        padding-bottom: 30pt;
+        margin-top: 40pt;
+        margin-bottom: 10pt;
+        margin-left: 10pt;
+
+        font-size: 14pt;
+        text-align: left;
+        // font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}
+
+// }

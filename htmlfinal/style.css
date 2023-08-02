@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "proxima_nova_reg";
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff") format("woff"), url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf") format("truetype"), url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header img {
+  transform: rotate(-33deg);
+  width: 96.49pt;
+  opacity: 100%;
+  height: 90.25pt;
+}
+.header .nav ul {
+  list-style: none;
+  font-size: 14pt;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-right: 14pt;
+}
+.header .nav ul li {
+  line-height: 25pt;
+  text-align: right;
+  padding-top: 10pt;
+}
+.header .nav ul #five {
+  color: #E14B32;
+}
+.header .nav ul #five::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background: crimson;
+  margin: 17px -65px;
+}
+
+.content {
+  margin-top: 20pt;
+  margin-left: 8pt;
+}
+.content span {
+  margin-left: 5pt;
+  display: block;
+  text-align: left;
+  font-size: 112pt;
+  font-weight: bold;
+  line-height: 90pt;
+  font-family: "Bebas Neue", sans-serif;
+}
+.content p {
+  width: 150pt;
+  height: 28pt;
+  font-size: 9pt;
+  margin-left: 5pt;
+  font-family: "Montserrat", sans-serif;
+}
+
+.yellow-triangle {
+  position: absolute;
+  top: 33%;
+  right: 21%;
+  left: 72%;
+  border-bottom: 28.57px solid #FAAF40;
+  border-right: 28.57px solid transparent;
+}
+
+.txt .square {
+  height: 50px;
+  width: 50px;
+  background-color: #f00909;
+  position: absolute;
+  left: 42%;
+  bottom: 0%;
+}
+.txt .para {
+  padding-top: 30pt;
+  padding-bottom: 30pt;
+  margin-top: 40pt;
+  margin-bottom: 10pt;
+  margin-left: 10pt;
+  font-size: 14pt;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.second {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EBF0F0;
+  position: relative;
+}
+.second .container1 {
+  padding-top: 30pt;
+  padding-left: 10pt;
+}
+.second .circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #FAAF41;
+  position: absolute;
+  left: -5%;
+}
+.second .head {
+  margin-top: 7pt;
+  margin-left: 5pt;
+  position: absolute;
+  color: black;
+  font-size: 16pt;
+  font-family: proxima_nova_reg;
+  font-weight: bolder;
+  text-align: left;
+  width: 140pt;
+  height: 20pt;
+}
+.second .delivery {
+  color: black;
+  font-family: proxima_nova_reg;
+  text-align: left;
+  position: absolute;
+  font-size: 32pt;
+  font-weight: 700;
+  margin-top: 45pt;
+}
+.second .delivery p {
+  margin-left: 5pt;
+}
+.second .delivery #edit {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px;
+}
+.second .art p {
+  color: black;
+  font-family: proxima_nova_reg;
+  text-align: left;
+  position: absolute;
+  font-size: 14pt;
+  margin-top: 265pt;
+  margin-left: 16pt;
+  margin-left: 16pt;
+}
+.second .foot {
+  color: black;
+  font-family: proxima_nova_reg;
+  text-align: left;
+  position: absolute;
+  margin-top: 400pt;
+  margin-left: 10pt;
+  font-size: 16pt;
+}
+.second .foot p {
+  margin-top: 10pt;
+}
+.second .foot p:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background: crimson;
+  margin: 12px 15px;
+}
+.second .triangle {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to top right, #3787C8 50%, transparent 0);
+  background-size: 75% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+  position: absolute;
+  right: -40%;
+  margin-top: 500pt;
+  left: 66%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.third {
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  background-color: #EBF0F0;
+  position: relative;
+}
+.third .circle2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #E14B32;
+  position: absolute;
+  left: -5%;
+}
+.third .head {
+  margin-top: 7pt;
+  margin-left: 5pt;
+  position: absolute;
+  color: black;
+  font-size: 16pt;
+  font-family: proxima_nova_reg;
+  font-weight: bolder;
+  text-align: left;
+  width: 140pt;
+  height: 20pt;
+}
+
+@media screen and (min-width: 900px) {
+  .header ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header li {
+    margin-right: 20pt;
+  }
+  .header #five {
+    margin-left: 44pt;
+  }
+  .header #five::before {
+    width: 55px;
+    margin: 17px -55px;
+  }
+  .content p {
+    width: 268pt;
+    height: 26pt;
+    font-size: 12pt;
+  }
+  .txt {
+    width: 320pt;
+    height: 125pt;
+    margin-left: 350pt;
+  }
+  .txt p {
+    position: relative;
+    z-index: 1;
+  }
+  .txt .square {
+    bottom: 20%;
+    right: 16%;
+    left: 27%;
+  }
+  .txt .yellow-triangle {
+    position: absolute;
+    top: 17rem;
+    right: 64rem;
+    left: 38rem;
+    border-bottom: 28.57px solid #FAAF40;
+    border-right: 28.57px solid transparent;
+  }
+  .txt .semicircle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background: rgb(225, 75, 50);
+    background: linear-gradient(280deg, rgb(225, 75, 50) 35%, rgb(55, 135, 200) 100%);
+  }
+}/*# sourceMappingURL=style.css.map */

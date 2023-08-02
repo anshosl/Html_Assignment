@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'proxima_nova_reg';
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+        url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+        url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400;600;700&display=swap');
+@import "./base/universal";
+@import "./module/container";
+@import "./module/work";
+@import "./module/ourwork";
+
+// @media screen and ((min-width:)){
+//     .txt{
+//         width: 320pt;
+//         height: 125pt;
+//     }
+// }
+@media screen and (min-width:900px) {
+    .header {
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li {
+            margin-right: 20pt;
+        }
+
+        #five {
+            margin-left: 44pt;
+        }
+
+        #five::before {
+            width: 55px;
+            margin: 17px -55px;
+        }
+
+    }
+
+    .content {
+        p {
+            width: 268pt;
+            height: 26pt;
+            font-size: 12pt;
+        }
+    }
+
+    .txt {
+        width: 320pt;
+        height: 125pt;
+        margin-left: 350pt;
+
+        p {
+            position: relative;
+            z-index: 1;
+        }
+
+        .square {
+            bottom: 20%;
+            right: 16%;
+            left: 27%;
+        }
+
+        .yellow-triangle {
+            position: absolute;
+            top: 17rem;
+            right: 64rem;
+            left: 38rem;
+            border-bottom: 28.57px solid #FAAF40;
+            border-right: 28.57px solid transparent;
+        }
+
+        .semicircle {
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+            // background-color: #FAAF41;
+            position: absolute;
+            // z-index: -1;
+            background: rgb(225, 75, 50);
+            background: linear-gradient(280deg, rgba(225, 75, 50, 1) 35%, rgba(55, 135, 200, 1) 100%);
+
+        }
+    }
+}
