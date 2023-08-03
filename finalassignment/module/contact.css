@@ -1,0 +1,11 @@
+.follow {
+  display: flex;
+  margin-left: 20pt;
+  margin-top: 30pt;
+}
+.follow .contact ul {
+  margin-left: 33pt;
+}
+.follow .contact ul li {
+  list-style: none;
+}/*# sourceMappingURL=contact.css.map */
